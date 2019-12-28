@@ -9,7 +9,7 @@ class Application < Sinatra::Base
     erb :greet
   end
   
-  get '/user_name' do
+  visit '/user_name' do
     erb :user_name
   end
   
