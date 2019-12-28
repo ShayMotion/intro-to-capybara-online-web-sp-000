@@ -1,3 +1,6 @@
 # Write your code here!
-class Capybara
-end
+require 'sinatra'
+ 
+require_relative './app'
+ 
+run Application
