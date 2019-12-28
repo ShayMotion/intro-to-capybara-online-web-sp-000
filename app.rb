@@ -8,4 +8,9 @@ class Application < Sinatra::Base
   post '/greet' do
     erb :greet
   end
+  
+  get '/user_name' do
+    erb :user_name
+  end
+  
 end
